@@ -1,0 +1,54 @@
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(../image/wave.svg) no-repeat 0 50%;
+    background-color: #0F7562;
+}
+
+.main_title{
+   font-size: 2.5em;
+    color: white;
+    line-height: 1.5em;
+    margin-bottom: 1em;  
+}
+
+main img{
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    width: 37%;
+    height: 44%;
+}
+
+main .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+}
+
+main a{
+    display: inline-block;
+    background-color: rgb(11, 90, 77);
+    color: white;
+    border-radius: 3em;
+    width: 10rem;
+    padding: 1.5em;
+    text-align: center;
+    text-shadow: 10px 0px 30px rgb(26, 26, 26);
+    margin-left: 1em;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2.5em;
+}
+
+main a:hover{
+    background-color: white;
+}
